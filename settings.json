@@ -1,0 +1,107 @@
+// {
+    // "workbench.colorTheme": "Monokai Classic"
+    {
+        "workbench.colorTheme": "Monokai Classic",
+        "security.workspace.trust.untrustedFiles": "open",
+        "workbench.iconTheme": "icons",
+        "workbench.colorCustomizations": {
+            // "list.inactiveSelectionBackground": "#C5DEF0",
+            
+            "terminal.background": "#161613",
+            "symbolIcon.typeParameterForeground": "#ffffff",
+            "outputView.background": "#1d1e19",
+            "scrollbarSlider.activeBackground": "#e6db74bf",
+            "symbolIcon.variableForeground": "#ffffff",
+            "symbolIcon.moduleForeground": "#000000",
+            "panel.background": "#161613",
+            "panel.border": "#161613",
+            "editorLineNumber.activeForeground": "#e6db74",
+            "sideBar.border": "#272822",
+            "sideBar.background": "#161613",
+            "sideBarSectionHeader.background": "#161613",
+            "sideBarSectionHeader.foreground": "#abae9e",
+            "sideBarTitle.foreground": "#abae9e",
+            "editorSuggestWidget.background": "#161613",
+            "editorSuggestWidget.selectedBackground": "#3d3e3962",
+            "editorCursor.foreground": "#e6db74",
+            "titleBar.border": "#27282200",
+            "notifications.background": "#1d1e19",
+            "editor.background": "#181914",
+            "editor.lineHighlightBackground": "#4c4c4c3c",
+            "editorGutter.background": "#181914",
+            "editorGroupHeader.tabsBackground": "#181914",
+            "tab.activeBackground": "#181914",
+            "tab.inactiveBackground": "#181914",
+            "tab.border": "#181914",
+            "editorGroupHeader.tabsBorder": "#181914",
+            "editorStickyScroll.background": "#1d1e19",
+            "editorStickyScroll.shadow": "#181914",
+            "statusBar.noFolderBackground": "#161613",
+            "statusBar.noFolderBorder": "#272822",
+            "statusBar.background": "#161613",
+            "statusBar.border": "#272822",
+            "statusBar.debuggingBackground": "#e6db74",
+            "statusBar.debuggingForeground": "#000000",
+            "titleBar.activeBackground": "#161613",
+            "statusBarItem.remoteBackground": "#161613",
+            "statusBarItem.errorBackground": "#d12727",
+        },
+        "editor.tokenColorCustomizations":{
+            "textMateRules": [
+                {
+                    "scope": "entity.name.type.class",
+                    "settings": {
+                        "foreground": "#a6e228"
+                    }
+                },
+                {
+                    "scope" : "keyword.control",
+                    "settings": {
+                        "foreground": "#d12727"
+                    }
+                },
+                {
+                    "scope" : "keyword.operator",
+                    "settings": {
+                        "foreground": "#44afdb"
+                    }
+                },
+                
+               
+    
+            ]
+        },
+        "editor.semanticTokenColorCustomizations": {
+            "enabled": true,
+            "rules": {
+            "*.declaration": {
+                "foreground": "#40f237"
+            },
+            "parameter": {
+                "foreground": "#ffffff",
+                "fontStyle": ""
+            }, 
+            "selfParameter": {
+                "foreground": "#ff7300",
+                "fontStyle": "italic"
+            },
+            "function": {
+                "foreground": "#a6e228"
+            }, "method": {
+                "foreground": "#a6e228",
+            }, "module": {
+                "foreground": "#00b4fb",
+                "fontStyle": "italic"
+            }, "magicFunction": {
+                "foreground": "#a6e228",
+            }, "*.async": {
+                "foreground": "#2a27d1"
+            }, "class.declaration": {
+                "foreground": "#a6e228",
+                "fontStyle": "underline bold"
+            }, "class.builtin":{
+                "foreground": "#01ff73",
+            }
+        },   
+    },
+    }
